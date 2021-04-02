@@ -1,0 +1,58 @@
+*{
+  margin:0;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  min-height: 30px;
+  text-align: center;
+  background-color:#ed4845;
+}
+
+nav{
+  box-sizing: border-box;
+  min-height: 30px;
+}
+
+
+article{
+  box-sizing: border-box;
+  min-height: 510px;
+}
+
+footer{
+  box-sizing: border-box;
+  height: 30px;
+  clear: both;
+  background-color:#5698c3;
+  text-align: center;
+}
+
+p{
+  padding-top: 10px;
+}
+
+.title{
+  text-align: center;
+}
+.as{
+  display:flex;
+  flex-direction: column;
+}
+
+.silde{
+}
+
+#canvas{
+  background-image: url('/static/pic/default.jpg');
+  background-repeat:no-repeat;
+}
+
+.text{
+  text-align: center;
+  padding: 5px;
+}
